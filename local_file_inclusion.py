@@ -9,7 +9,7 @@ def main(url):
         "/..//..//..//..//..//",
     ]
 
-    # URL encode our payloads to make sure spaces and special characters are not interpreted. Otherwise, certain
+    # URL encode our payloads to make sure spaces and special characters are interpreted properly. Otherwise, certain
     # characters will confuse the browser for example if you don't encode "&" it will think you're sending a parameter.
     encoded_payloads = []
     for payload in payloads:
